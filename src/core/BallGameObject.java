@@ -17,7 +17,7 @@ public abstract class BallGameObject implements Moveable,Drawable {
 	public Image img;
 	public int width;
 	public int height;
-	public int speed;
+	public double speed;
 	
 	@Override
 	public void draw(Graphics g) {
